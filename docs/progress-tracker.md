@@ -1,0 +1,53 @@
+# 📈 Progress Tracker
+
+Tick topics off as you complete them. Update the status column in the main [README](../README.md) too.
+
+- [ ] **01 · Foundations & Complexity**
+  - [ ] Big-O notation
+  - [ ] Time complexity analysis
+  - [ ] Space complexity analysis
+  - [ ] Common complexity classes
+- [ ] **02 · Arrays & Strings**
+  - [ ] Prefix sums
+  - [ ] Two pointers
+  - [ ] Sliding window
+- [ ] **03 · Searching Algorithms**
+  - [ ] Linear search
+  - [ ] Binary search + variants
+- [ ] **04 · Sorting Algorithms**
+  - [ ] Bubble / selection / insertion
+  - [ ] Merge sort
+  - [ ] Quick sort
+  - [ ] Heap sort
+- [ ] **05 · Recursion & Backtracking**
+  - [ ] Recursion fundamentals
+  - [ ] Backtracking problems
+- [ ] **06 · Linked Lists**
+  - [ ] Singly linked list
+  - [ ] Doubly linked list
+  - [ ] Cycle detection
+- [ ] **07 · Stacks & Queues**
+  - [ ] Stack + applications
+  - [ ] Queue / deque
+- [ ] **08 · Hashing & Hash Tables**
+  - [ ] Hash maps & sets
+  - [ ] Frequency counting
+- [ ] **09 · Trees & Binary Search Trees**
+  - [ ] Traversals
+  - [ ] BST operations
+- [ ] **10 · Heaps & Priority Queues**
+  - [ ] Heap operations
+  - [ ] Top-K problems
+- [ ] **11 · Graphs**
+  - [ ] BFS / DFS
+  - [ ] Shortest paths
+  - [ ] MST
+- [ ] **12 · Greedy Algorithms**
+  - [ ] Interval scheduling
+- [ ] **13 · Dynamic Programming**
+  - [ ] Memoization
+  - [ ] Tabulation
+  - [ ] Classic DP problems
+- [ ] **14 · Tries & Advanced Topics**
+  - [ ] Trie
+  - [ ] Union-Find

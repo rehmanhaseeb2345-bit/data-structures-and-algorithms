@@ -1,0 +1,17 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "My structured journey through Data Structures and Algorithms in JavaScript.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "dsa",
+    "data-structures",
+    "algorithms",
+    "javascript",
+    "learning"
+  ],
+  "license": "MIT"
+}
