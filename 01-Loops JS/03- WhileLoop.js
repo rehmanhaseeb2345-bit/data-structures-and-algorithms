@@ -1,24 +1,27 @@
 const prompt = require("prompt-sync")();
-const question = Number(prompt("Enter the number "));
+const userInput = Number(prompt("Enter a number: "));
 
-let number = question;
-sqr = number ** 2;
-sqr1 = 0;
-sqr2 = 0;
-auto = true;
-while (number > 0) {
-  sqr1st = number % 10;
-  sqr1 = sqr1 * 10 + sqr1st;
+let originalNumber = userInput;
+let squaredNumber = originalNumber ** 2;
 
-  sqr2nd = sqr % 10;
-  sqr2 = sqr2 * 10 + sqr2nd;
+let reversedOriginal = 0;
+let reversedSquare = 0;
+let isAutomorphic = true;
 
-  if (sqr1 !== sqr2) {
-    auto = false;
+while (originalNumber > 0) {
+  const lastDigitOfOriginal = originalNumber % 10;
+  reversedOriginal = reversedOriginal * 10 + lastDigitOfOriginal;
+
+  const lastDigitOfSquare = squaredNumber % 10;
+  reversedSquare = reversedSquare * 10 + lastDigitOfSquare;
+
+  if (lastDigitOfOriginal !== lastDigitOfSquare) {
+    isAutomorphic = false;
     break;
   }
 
-  number = Math.floor(number / 10);
-  sqr = Math.floor(sqr / 10);
+  originalNumber = Math.floor(originalNumber / 10);
+  squaredNumber = Math.floor(squaredNumber / 10);
 }
-console.log(auto);
+
+console.log(`Is the number automorphic? ${isAutomorphic}`);
