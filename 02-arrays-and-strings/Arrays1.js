@@ -43,19 +43,32 @@
 // }
 // console.log(arr);
 
-let arr = [0, 1, 0, 1, 1, 0];
-let left = 0;
-let right = arr.length - 1;
+// let arr = [0, 1, 0, 1, 1, 0];
+// let left = 0;
+// let right = arr.length - 1;
 
-while (left < right) {
-  if (arr[left] == 0) {
-    left++;
-  } else if (arr[right] == 1) {
-    right--;
-  } else {
-    [arr[left], arr[right]] = [arr[right], arr[left]];
-    left++;
-    right--;
+// while (left < right) {
+//   if (arr[left] == 0) {
+//     left++;
+//   } else if (arr[right] == 1) {
+//     right--;
+//   } else {
+//     [arr[left], arr[right]] = [arr[right], arr[left]];
+//     left++;
+//     right--;
+//   }
+// }
+// console.log(arr);
+
+let arr = [45, 12, 12, 12, 89];
+let min = Math.min(arr[0], arr[1]);
+let smin = Math.max(arr[0], arr[1]);
+for (i = 1; i < arr.length; i++) {
+  if (min > arr[i]) {
+    smin = min;
+    min = arr[i];
+  } else if (smin > arr[i] && arr[i] != min) {
+    smin = arr[i];
   }
 }
-console.log(arr);
+console.log(smin);
