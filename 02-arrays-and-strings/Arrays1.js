@@ -1,74 +1,106 @@
-// // let arr = [10, 20, 30, 40, 50];
-// // let sum = 0;
+// // // let arr = [10, 20, 30, 40, 50];
+// // // let sum = 0;
 
-// // for (i = 0; i < arr.length; i++) {
-// //   sum += arr[i];
-// // }
-// // console.log(sum);
+// // // for (i = 0; i < arr.length; i++) {
+// // //   sum += arr[i];
+// // // }
+// // // console.log(sum);
 
-// // let arr = [10, 2, 78, 100, 4];
-// // let max = arr[0];
+// // // let arr = [10, 2, 78, 100, 4];
+// // // let max = arr[0];
+
+// // // for (i = 0; i < arr.length; i++) {
+// // //   if (max < arr[i]) {
+// // //     max = arr[i];
+// // //   }
+// // // }
+// // // console.log(max);
+
+// // let arr = [10, 40, 40, 20, 40];
+// // let max = 0;
+// // let secondmax = 0;
 
 // // for (i = 0; i < arr.length; i++) {
 // //   if (max < arr[i]) {
+// //     secondmax = max;
 // //     max = arr[i];
+// //   } else if (secondmax < arr[i] && arr[i] != max) {
+// //     secondmax = arr[i];
 // //   }
 // // }
-// // console.log(max);
+// // console.log(secondmax);
 
-// let arr = [10, 40, 40, 20, 40];
-// let max = 0;
-// let secondmax = 0;
+// // let arr = [10, 20, 30, 40, 50];
+// // let left = 0;
+// // let right = arr.length - 1;
+// // while (left < right) {
+// //   temp = arr[left];
+// //   arr[left] = arr[right];
+// //   arr[right] = temp;
 
-// for (i = 0; i < arr.length; i++) {
-//   if (max < arr[i]) {
-//     secondmax = max;
-//     max = arr[i];
-//   } else if (secondmax < arr[i] && arr[i] != max) {
-//     secondmax = arr[i];
-//   }
-// }
-// console.log(secondmax);
+// //   left++;
+// //   right--;
+// // }
+// // console.log(arr);
 
-// let arr = [10, 20, 30, 40, 50];
-// let left = 0;
-// let right = arr.length - 1;
-// while (left < right) {
-//   temp = arr[left];
-//   arr[left] = arr[right];
-//   arr[right] = temp;
+// // let arr = [0, 1, 0, 1, 1, 0];
+// // let left = 0;
+// // let right = arr.length - 1;
 
-//   left++;
-//   right--;
-// }
-// console.log(arr);
+// // while (left < right) {
+// //   if (arr[left] == 0) {
+// //     left++;
+// //   } else if (arr[right] == 1) {
+// //     right--;
+// //   } else {
+// //     [arr[left], arr[right]] = [arr[right], arr[left]];
+// //     left++;
+// //     right--;
+// //   }
+// // }
+// // console.log(arr);
 
-// let arr = [0, 1, 0, 1, 1, 0];
-// let left = 0;
-// let right = arr.length - 1;
+// // let arr = [45, 12, 12, 12, 89];
+// // let min = Math.min(arr[0], arr[1]);
+// // let smin = Math.max(arr[0], arr[1]);
+// // for (i = 2; i < arr.length; i++) {
+// //   if (min > arr[i]) {
+// //     smin = min;
+// //     min = arr[i];
+// //   } else if (smin > arr[i] && arr[i] != min) {
+// //     smin = arr[i];
+// //   }
+// // }
+// // console.log(smin);
 
-// while (left < right) {
-//   if (arr[left] == 0) {
-//     left++;
-//   } else if (arr[right] == 1) {
-//     right--;
-//   } else {
-//     [arr[left], arr[right]] = [arr[right], arr[left]];
-//     left++;
-//     right--;
-//   }
-// }
-// console.log(arr);
+// // let arr = [4, -3, 2, -5, 5, -1, 3];
 
-let arr = [45, 12, 12, 12, 89];
-let min = Math.min(arr[0], arr[1]);
-let smin = Math.max(arr[0], arr[1]);
-for (i = 1; i < arr.length; i++) {
-  if (min > arr[i]) {
-    smin = min;
-    min = arr[i];
-  } else if (smin > arr[i] && arr[i] != min) {
-    smin = arr[i];
-  }
-}
-console.log(smin);
+// // let left = [];
+// // let right = [];
+
+// // for (i = 0; i < arr.length; i++) {
+// //   if (arr[i] < 0) {
+// //     left.push(arr[i]);
+// //   } else {
+// //     right.push(arr[i]);
+// //   }
+// // }
+// // console.log(left.concat(right));
+
+// // let arr = [4, -3, 2, -5, 5, -1, 3];
+
+// // let left = 0;
+// // let right = arr.length - 1;
+
+// // while (left < right) {
+// //   if (arr[left] < 0) {
+// //     left++;
+// //   } else if (arr[right] >= 0) {
+// //     right--;
+// //   } else {
+// //     [arr[left], arr[right]] = [arr[right], arr[left]];
+// //     left++;
+// //     right--;
+// //   }
+// // }
+// // console.log(arr);
