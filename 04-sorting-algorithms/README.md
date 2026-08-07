@@ -1,17 +1,15 @@
-# 04 · Sorting Algorithms
+# 03 · Searching Algorithms
 
-How ordering works under the hood. Implementing these yourself builds deep intuition for divide-and-conquer and complexity.
+Finding an element efficiently — and understanding why sorted data unlocks logarithmic search.
 
 ## 📖 Suggested lessons
-- `lesson-01-bubble-selection-insertion` — the simple O(n²) trio
-- `lesson-02-merge-sort` — divide & conquer, stable, O(n log n)
-- `lesson-03-quick-sort` — partitioning, in-place, fast in practice
-- `lesson-04-heap-sort` — sorting with a heap
-- `lesson-05-non-comparison-sorts` — counting & radix sort
+- `lesson-01-linear-search` — the O(n) baseline
+- `lesson-02-binary-search` — O(log n) search on sorted data
+- `lesson-03-binary-search-variants` — first/last occurrence, search in rotated array, search on answer
 
 ## 🎯 You'll be able to
-- Implement each sort from scratch
-- Choose the right sort given constraints (stability, memory, data range)
+- Implement binary search correctly (the tricky boundary conditions!)
+- Spot when a problem is secretly a binary-search-on-answer problem
 
-## 📌 Reference
-Complexity comparison table in [`docs/big-o-cheatsheet.md`](../docs/big-o-cheatsheet.md).
+## 🧩 Practice ideas
+Binary Search · Search Insert Position · Find First and Last Position · Search in Rotated Sorted Array
